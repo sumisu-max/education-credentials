@@ -1,0 +1,28 @@
+{
+  "name": "education-credentials",
+  "version": "1.0.0",
+  "description": "Decentralized Education Credentials Platform on Celo - Issue and verify certificates, skill badges, and achievements on the blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "test:gas": "REPORT_GAS=true hardhat test",
+    "compile": "hardhat compile",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network celoSepolia",
+    "deploy:mainnet": "hardhat run scripts/deploy.js --network celo",
+    "verify": "hardhat verify --network celoSepolia"
+  },
+  "keywords": ["celo", "blockchain", "education", "credentials", "certificates", "NFT", "solidity", "hardhat"],
+  "author": "Celo Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.1.0",
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@openzeppelin/contracts": "^5.4.0",
+    "chai": "^4.5.0",
+    "dotenv": "^17.2.3",
+    "ethers": "^6.15.0",
+    "hardhat": "^2.26.4",
+    "hardhat-gas-reporter": "^2.3.0",
+    "solidity-coverage": "^0.8.16"
+  }
+}
