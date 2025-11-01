@@ -1,4 +1,4 @@
-# 🎓 Education Credentials - Decentralized Certification Platform# Sample Hardhat Project
+# 🎓 Education Credentials - Decentralized Certification Platform
 
 
 
@@ -38,14 +38,6 @@ REPORT_GAS=true npx hardhat test
 - **✔️ Trustworthy**: Check institution status and reputation
 - **📋 Comprehensive**: View complete educational history
 
-## 🚀 Deployment Information
-
-### Celo Sepolia Testnet
-```
-Contract Address: 0x77068916dE6AD4Adb330E7b3d5ca60C10C3942d6
-Network: Celo Sepolia (Chain ID: 11142220)
-Explorer: https://sepolia.celoscan.io/address/0x77068916dE6AD4Adb330E7b3d5ca60C10C3942d6
-```
 
 ## 📋 Quick Start
 
@@ -279,6 +271,3 @@ MIT License - Free to use and modify
 
 ---
 
-**Built with ❤️ on Celo Blockchain**
-
-*Making education credentials accessible, verifiable, and portable for everyone, everywhere.*
